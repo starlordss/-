@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+SZClipCircle.h"
 
 @interface ViewController : UIViewController
+
+
+
 
 
 @end

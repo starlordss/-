@@ -13,6 +13,7 @@
 		011BAE6A1F5D30930000365E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011BAE681F5D30930000365E /* Main.storyboard */; };
 		011BAE6C1F5D30930000365E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011BAE6B1F5D30930000365E /* Assets.xcassets */; };
 		011BAE6F1F5D30930000365E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011BAE6D1F5D30930000365E /* LaunchScreen.storyboard */; };
+		011BAE7C1F5D315A0000365E /* UIImage+SZClipCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BAE7B1F5D315A0000365E /* UIImage+SZClipCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		011BAE6B1F5D30930000365E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011BAE6E1F5D30930000365E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011BAE701F5D30930000365E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011BAE7A1F5D315A0000365E /* UIImage+SZClipCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SZClipCircle.h"; sourceTree = "<group>"; };
+		011BAE7B1F5D315A0000365E /* UIImage+SZClipCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SZClipCircle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		011BAE5E1F5D30930000365E /* 带边框的切圆 */ = {
 			isa = PBXGroup;
 			children = (
+				011BAE791F5D315A0000365E /* ClipCircle */,
 				011BAE621F5D30930000365E /* AppDelegate.h */,
 				011BAE631F5D30930000365E /* AppDelegate.m */,
 				011BAE651F5D30930000365E /* ViewController.h */,
@@ -77,6 +81,15 @@
 				011BAE601F5D30930000365E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		011BAE791F5D315A0000365E /* ClipCircle */ = {
+			isa = PBXGroup;
+			children = (
+				011BAE7A1F5D315A0000365E /* UIImage+SZClipCircle.h */,
+				011BAE7B1F5D315A0000365E /* UIImage+SZClipCircle.m */,
+			);
+			path = ClipCircle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			files = (
 				011BAE671F5D30930000365E /* ViewController.m in Sources */,
 				011BAE641F5D30930000365E /* AppDelegate.m in Sources */,
+				011BAE7C1F5D315A0000365E /* UIImage+SZClipCircle.m in Sources */,
 				011BAE611F5D30930000365E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

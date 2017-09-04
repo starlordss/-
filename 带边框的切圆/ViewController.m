@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -20,10 +21,11 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+//    self.imageView.image = [UIImage imageWithClipCircle:[UIImage imageNamed:@"li"]];
+    
+//    self.imageView.image = [UIImage imageWithBorderWidth:4.f boderColor:[UIColor redColor] image:[UIImage imageNamed:@"li"]];
 }
-
 
 @end
